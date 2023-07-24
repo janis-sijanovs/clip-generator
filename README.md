@@ -13,7 +13,9 @@ This project generates a video from a list of images. Each image is zoomed in gr
 
 You can install the Python dependencies with pip by running:
 
-pip install -r requirements.txt
+    ```
+    pip install -r requirements.txt
+    ```
 
 ## Usage
 
@@ -21,6 +23,7 @@ To generate a video, call the `generate_video` function with a list of image fil
 
 Here is an example of how to use the function:
 
+```
 from video_generator import generate_video
 
 # List of image files
@@ -30,5 +33,6 @@ images = ['image1.jpg', 'image2.jpg', 'image3.jpg']
 output_file = generate_video(images, 'output.mp4')
 
 print(f'Video saved to {output_file}')
+```
 
 This will generate a video where each image is shown for 6 seconds, with a 1-second fade effect between images. The text "Get yours today!" and "Link in description!" will fade in at the end of the video.

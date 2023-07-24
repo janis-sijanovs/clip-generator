@@ -13,9 +13,9 @@ This project generates a video from a list of images. Each image is zoomed in gr
 
 You can install the Python dependencies with pip by running:
 
-    ```
-    pip install -r requirements.txt
-    ```
+```
+pip install -r requirements.txt
+```
 
 ## Usage
 

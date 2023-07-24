@@ -1,4 +1,4 @@
-# Video Generator
+# Clip Generator
 
 This project generates a video from a list of images. Each image is zoomed in gradually, and the video transitions between images with a fade effect. Text fades in at the end of the video.
 

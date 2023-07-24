@@ -45,7 +45,7 @@ def resize_and_crop(img_path, size):
     img = img.crop((left, top, right, bottom))
     return img
 
-def generate_video(image_files, song_file='song.mp3', output_file='output.mp4', resolution=(1080, 1920)):
+def generate_video(image_files, output_file='output.mp4', song_file='song.mp3', resolution=(1080, 1920)):
     size = resolution
 
     clips = []
@@ -95,9 +95,3 @@ def generate_video(image_files, song_file='song.mp3', output_file='output.mp4', 
         os.unlink(temp.name)
 
     return output_file
-
-
-# Test the function
-images = ['image1.jpg', 'image2.jpg', 'image3.jpg']
-output_file = generate_video(images, 'output.mp4')
-print(f'Video saved to {output_file}')
